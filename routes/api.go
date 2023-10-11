@@ -8,4 +8,5 @@ import (
 func AddApiRoutes(app *fiber.App) {
 	api := app.Group("/api")
 	api.Get("/game", handlers.GameHandler)
+	api.Post("/game", handlers.GameGuessHandler)
 }

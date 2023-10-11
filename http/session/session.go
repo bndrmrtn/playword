@@ -2,6 +2,8 @@ package session
 
 import (
 	"encoding/gob"
+	"fmt"
+	"github.com/bndrmrtn/playword/handlers/types"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/session"
 	"time"
@@ -20,7 +22,9 @@ func Get(key string, c *fiber.Ctx) (interface{}, error) {
 }
 
 func Set(key string, value interface{}, c *fiber.Ctx) error {
-	gob.Register(map[string]interface{}{})
+	fmt.Println("VAL:", value)
+	gob.Register(types.GameData{})
+	gob.Register(types.WordData{})
 
 	sess, err := store.Get(c)
 	if err != nil {
