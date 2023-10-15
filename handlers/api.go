@@ -13,8 +13,10 @@ import (
 	"time"
 )
 
-const MAX_TRIALS = 3
+// MaxTrials The maximum trials to guess the word
+const MaxTrials = 3
 
+// newData Returns a new word from the database and saves it to the session
 func newData(c *fiber.Ctx) types.WordData {
 	var randomWord models.Word
 	database.Database.Db.Order("RAND()").First(&randomWord)
@@ -36,15 +38,13 @@ func newData(c *fiber.Ctx) types.WordData {
 	return wordData
 }
 
+// getData Creates a new game or returns the existing one
 func getData(c *fiber.Ctx) types.GameResponse {
 	_wordData, err := session.Get("word_data", c)
 	if err != nil || _wordData == nil {
 		_wordData = newData(c)
 	}
-	fmt.Println(_wordData, "err")
 	wordData := _wordData.(types.WordData)
-
-	fmt.Println("Word data: ", wordData)
 
 	var gameData types.GameData
 	_gameData, err2 := session.Get("game_data", c)
@@ -52,7 +52,7 @@ func getData(c *fiber.Ctx) types.GameResponse {
 	if err2 != nil || _gameData == nil {
 		gameData = types.GameData{
 			Length:     int16(len(wordData.Letters)),
-			MaxTrials:  MAX_TRIALS,
+			MaxTrials:  MaxTrials,
 			Trials:     0,
 			Guessed:    0,
 			Expiration: time.Now().Add(time.Minute * 10),
@@ -68,6 +68,7 @@ func getData(c *fiber.Ctx) types.GameResponse {
 	}
 }
 
+// GameHandler Returns the current game data to the frontend application
 func GameHandler(c *fiber.Ctx) error {
 	return c.JSON(fiber.Map{
 		"status": map[string]any{
@@ -78,6 +79,7 @@ func GameHandler(c *fiber.Ctx) error {
 	})
 }
 
+// findWord Search for a word in the database (returns an error if it doesn't exist)
 func findWord(word string, order *models.Word) error {
 	database.Database.Db.Find(&order, "word = ?", word)
 	if order.Id == 0 {
@@ -86,6 +88,12 @@ func findWord(word string, order *models.Word) error {
 	return nil
 }
 
+// TODO: make it work ;)
+func expirationChecker(time time.Time) error {
+	return nil
+}
+
+// GameGuessHandler Handles the game main logic, checks if the received word is in the database, and manages the trials, then returns a response to the frontend application
 func GameGuessHandler(c *fiber.Ctx) error {
 	payload := struct {
 		Guess string `json:"guess"`
@@ -97,27 +105,34 @@ func GameGuessHandler(c *fiber.Ctx) error {
 		return err
 	}
 
-	// TODO: something works wrong here
 	var word models.Word
-	err := findWord(payload.Guess, &word)
-	if err != nil {
-		trials := gameData.GameData.Trials + 1
-		endGame := trials == MAX_TRIALS
+	database.Database.Db.Find(&word, "id = ?", gameData.WordData.WordId)
+	if word.Id == 0 {
+		return c.Status(500).JSON(fiber.Map{
+			"message": "Something went wrong",
+		})
+	}
+
+	var guessWord models.Word
+	err := findWord(payload.Guess, &guessWord)
+	if err != nil || !helpers.CharsMatch(word.Word, guessWord.Word) {
+		gameData.GameData.Trials++
+		_ = session.Set("game_data", gameData.GameData, c)
+		endGame := gameData.GameData.Trials == MaxTrials
 		var message string
-		if MAX_TRIALS-trials > 1 {
-			message = fmt.Sprintf("No problem! You have %v more trials", trials)
-		} else if MAX_TRIALS-trials == 1 {
+		if MaxTrials-gameData.GameData.Trials > 1 {
+			message = fmt.Sprintf("No problem! You have %v more trials", MaxTrials-gameData.GameData.Trials)
+		} else if MaxTrials-gameData.GameData.Trials == 1 {
 			message = "No problem! You have 1 more trial"
 		} else {
-			message = "You lost! The word was "
+			message = "You lost! The word was \"" + word.Word + "\""
 			_ = session.Delete("game_data", c)
 		}
-
 		_ = session.Delete("word_data", c)
 
 		return c.JSON(types.GuessResponse{
 			IsValid: false,
-			Trials:  trials,
+			Trials:  gameData.GameData.Trials,
 			Endgame: endGame,
 			Message: types.GuessMessage{
 				Type: "error",
@@ -126,8 +141,10 @@ func GameGuessHandler(c *fiber.Ctx) error {
 		})
 	}
 
-	// TODO: check if the sent string has only the letters that the required word has
 	_ = session.Delete("word_data", c)
+	gameData.GameData.Trials = 0
+	_ = session.Set("game_data", gameData.GameData, c)
+
 	return c.JSON(types.GuessResponse{
 		IsValid: true,
 		Trials:  gameData.GameData.Trials,

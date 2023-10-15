@@ -2,7 +2,6 @@ package session
 
 import (
 	"encoding/gob"
-	"fmt"
 	"github.com/bndrmrtn/playword/handlers/types"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/session"
@@ -12,6 +11,7 @@ import (
 // This stores all of your app's sessions
 var store *session.Store = session.New()
 
+// Get tries to get a session by key, or returns an error
 func Get(key string, c *fiber.Ctx) (interface{}, error) {
 	sess, err := store.Get(c)
 	if err != nil {
@@ -21,8 +21,8 @@ func Get(key string, c *fiber.Ctx) (interface{}, error) {
 	return sess.Get(key), nil
 }
 
+// Set tries to set a session by key and value, or returns an error
 func Set(key string, value interface{}, c *fiber.Ctx) error {
-	fmt.Println("VAL:", value)
 	gob.Register(types.GameData{})
 	gob.Register(types.WordData{})
 
@@ -43,6 +43,7 @@ func Set(key string, value interface{}, c *fiber.Ctx) error {
 	return nil
 }
 
+// Delete tries to delete a session by key, or returns an error
 func Delete(key string, c *fiber.Ctx) error {
 	sess, err := store.Get(c)
 	if err != nil {

@@ -42,7 +42,6 @@ func fillDb() {
 	if err != nil {
 		panic(err.Error())
 	}
-	fmt.Println(currentDir)
 	mySqlString, err2 := os.ReadFile(currentDir + "/database/db.sql")
 
 	if err2 != nil {

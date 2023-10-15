@@ -1,216 +1,217 @@
-INSERT INTO words (id, word, created_at) VALUES (1, "abuse", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (2, "adult", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (3, "agent", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (4, "anger", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (5, "apple", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (6, "award", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (7, "basis", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (8, "beach", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (9, "birth", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (10, "block", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (11, "blood", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (12, "board", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (13, "brain", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (14, "bread", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (15, "break", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (16, "brown", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (17, "buyer", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (18, "cause", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (19, "chain", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (20, "chair", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (21, "chest", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (22, "chief", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (23, "child", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (24, "china", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (25, "claim", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (26, "class", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (27, "clock", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (28, "coach", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (29, "coast", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (30, "court", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (31, "cover", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (32, "cream", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (33, "crime", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (34, "cross", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (35, "crowd", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (36, "crown", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (37, "cycle", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (38, "dance", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (39, "death", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (40, "depth", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (41, "doubt", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (42, "draft", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (43, "drama", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (44, "dream", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (45, "dress", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (46, "drink", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (47, "drive", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (48, "earth", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (49, "enemy", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (50, "entry", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (51, "error", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (52, "event", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (53, "faith", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (54, "fault", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (55, "field", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (56, "fight", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (57, "final", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (58, "floor", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (59, "focus", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (60, "force", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (61, "frame", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (62, "frank", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (63, "front", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (64, "fruit", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (65, "glass", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (66, "grant", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (67, "grass", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (68, "green", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (69, "group", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (70, "guide", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (71, "heart", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (72, "henry", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (73, "horse", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (74, "hotel", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (75, "house", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (76, "image", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (77, "index", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (78, "input", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (79, "issue", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (80, "japan", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (81, "jones", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (82, "judge", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (83, "knife", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (84, "laura", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (85, "layer", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (86, "level", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (87, "lewis", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (88, "light", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (89, "limit", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (90, "lunch", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (91, "major", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (92, "march", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (93, "match", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (94, "metal", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (95, "model", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (96, "money", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (97, "month", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (98, "motor", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (99, "mouth", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (100, "music", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (101, "night", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (102, "noise", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (103, "north", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (104, "novel", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (105, "nurse", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (106, "offer", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (107, "order", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (108, "other", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (109, "owner", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (110, "panel", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (111, "paper", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (112, "party", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (113, "peace", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (114, "peter", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (115, "phase", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (116, "phone", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (117, "piece", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (118, "pilot", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (119, "pitch", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (120, "place", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (121, "plane", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (122, "plant", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (123, "plate", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (124, "point", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (125, "pound", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (126, "power", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (127, "press", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (128, "price", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (129, "pride", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (130, "prize", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (131, "proof", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (132, "queen", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (133, "radio", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (134, "range", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (135, "ratio", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (136, "reply", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (137, "right", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (138, "river", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (139, "round", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (140, "route", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (141, "rugby", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (142, "scale", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (143, "scene", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (144, "scope", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (145, "score", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (146, "sense", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (147, "shape", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (148, "share", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (149, "sheep", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (150, "sheet", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (151, "shift", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (152, "shirt", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (153, "shock", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (154, "sight", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (155, "simon", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (156, "skill", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (157, "sleep", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (158, "smile", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (159, "smith", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (160, "smoke", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (161, "sound", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (162, "south", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (163, "space", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (164, "speed", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (165, "spite", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (166, "sport", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (167, "squad", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (168, "staff", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (169, "stage", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (170, "start", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (171, "state", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (172, "steam", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (173, "steel", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (174, "stock", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (175, "stone", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (176, "store", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (177, "study", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (178, "stuff", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (179, "style", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (180, "sugar", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (181, "table", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (182, "taste", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (183, "terry", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (184, "theme", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (185, "thing", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (186, "title", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (187, "total", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (188, "touch", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (189, "tower", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (190, "track", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (191, "trade", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (192, "train", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (193, "trend", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (194, "trial", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (195, "trust", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (196, "truth", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (197, "uncle", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (198, "union", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (199, "unity", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (200, "value", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (201, "video", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (202, "visit", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (203, "voice", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (204, "waste", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (205, "watch", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (206, "water", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (207, "while", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (208, "white", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (209, "whole", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (210, "woman", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (211, "world", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (212, "youth", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (213, "apple", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (214, "mango", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (215, "lemon", "2023-10-11 19:06:31");
-INSERT INTO words (id, word, created_at) VALUES (216, "melon", "2023-10-11 19:06:31");
+INSERT INTO words (id, word, created_at) VALUES
+(1, "abuse", "2023-10-12 16:17:59"),
+(2, "adult", "2023-10-12 16:17:59"),
+(3, "agent", "2023-10-12 16:17:59"),
+(4, "anger", "2023-10-12 16:17:59"),
+(5, "apple", "2023-10-12 16:17:59"),
+(6, "award", "2023-10-12 16:17:59"),
+(7, "basis", "2023-10-12 16:17:59"),
+(8, "beach", "2023-10-12 16:17:59"),
+(9, "birth", "2023-10-12 16:17:59"),
+(10, "block", "2023-10-12 16:17:59"),
+(11, "blood", "2023-10-12 16:17:59"),
+(12, "board", "2023-10-12 16:17:59"),
+(13, "brain", "2023-10-12 16:17:59"),
+(14, "bread", "2023-10-12 16:17:59"),
+(15, "break", "2023-10-12 16:17:59"),
+(16, "brown", "2023-10-12 16:17:59"),
+(17, "buyer", "2023-10-12 16:17:59"),
+(18, "cause", "2023-10-12 16:17:59"),
+(19, "chain", "2023-10-12 16:17:59"),
+(20, "chair", "2023-10-12 16:17:59"),
+(21, "chest", "2023-10-12 16:17:59"),
+(22, "chief", "2023-10-12 16:17:59"),
+(23, "child", "2023-10-12 16:17:59"),
+(24, "china", "2023-10-12 16:17:59"),
+(25, "claim", "2023-10-12 16:17:59"),
+(26, "class", "2023-10-12 16:17:59"),
+(27, "clock", "2023-10-12 16:17:59"),
+(28, "coach", "2023-10-12 16:17:59"),
+(29, "coast", "2023-10-12 16:17:59"),
+(30, "court", "2023-10-12 16:17:59"),
+(31, "cover", "2023-10-12 16:17:59"),
+(32, "cream", "2023-10-12 16:17:59"),
+(33, "crime", "2023-10-12 16:17:59"),
+(34, "cross", "2023-10-12 16:17:59"),
+(35, "crowd", "2023-10-12 16:17:59"),
+(36, "crown", "2023-10-12 16:17:59"),
+(37, "cycle", "2023-10-12 16:17:59"),
+(38, "dance", "2023-10-12 16:17:59"),
+(39, "death", "2023-10-12 16:17:59"),
+(40, "depth", "2023-10-12 16:17:59"),
+(41, "doubt", "2023-10-12 16:17:59"),
+(42, "draft", "2023-10-12 16:17:59"),
+(43, "drama", "2023-10-12 16:17:59"),
+(44, "dream", "2023-10-12 16:17:59"),
+(45, "dress", "2023-10-12 16:17:59"),
+(46, "drink", "2023-10-12 16:17:59"),
+(47, "drive", "2023-10-12 16:17:59"),
+(48, "earth", "2023-10-12 16:17:59"),
+(49, "enemy", "2023-10-12 16:17:59"),
+(50, "entry", "2023-10-12 16:17:59"),
+(51, "error", "2023-10-12 16:17:59"),
+(52, "event", "2023-10-12 16:17:59"),
+(53, "faith", "2023-10-12 16:17:59"),
+(54, "fault", "2023-10-12 16:17:59"),
+(55, "field", "2023-10-12 16:17:59"),
+(56, "fight", "2023-10-12 16:17:59"),
+(57, "final", "2023-10-12 16:17:59"),
+(58, "floor", "2023-10-12 16:17:59"),
+(59, "focus", "2023-10-12 16:17:59"),
+(60, "force", "2023-10-12 16:17:59"),
+(61, "frame", "2023-10-12 16:17:59"),
+(62, "frank", "2023-10-12 16:17:59"),
+(63, "front", "2023-10-12 16:17:59"),
+(64, "fruit", "2023-10-12 16:17:59"),
+(65, "glass", "2023-10-12 16:17:59"),
+(66, "grant", "2023-10-12 16:17:59"),
+(67, "grass", "2023-10-12 16:17:59"),
+(68, "green", "2023-10-12 16:17:59"),
+(69, "group", "2023-10-12 16:17:59"),
+(70, "guide", "2023-10-12 16:17:59"),
+(71, "heart", "2023-10-12 16:17:59"),
+(72, "henry", "2023-10-12 16:17:59"),
+(73, "horse", "2023-10-12 16:17:59"),
+(74, "hotel", "2023-10-12 16:17:59"),
+(75, "house", "2023-10-12 16:17:59"),
+(76, "image", "2023-10-12 16:17:59"),
+(77, "index", "2023-10-12 16:17:59"),
+(78, "input", "2023-10-12 16:17:59"),
+(79, "issue", "2023-10-12 16:17:59"),
+(80, "japan", "2023-10-12 16:17:59"),
+(81, "jones", "2023-10-12 16:17:59"),
+(82, "judge", "2023-10-12 16:17:59"),
+(83, "knife", "2023-10-12 16:17:59"),
+(84, "laura", "2023-10-12 16:17:59"),
+(85, "layer", "2023-10-12 16:17:59"),
+(86, "level", "2023-10-12 16:17:59"),
+(87, "lewis", "2023-10-12 16:17:59"),
+(88, "light", "2023-10-12 16:17:59"),
+(89, "limit", "2023-10-12 16:17:59"),
+(90, "lunch", "2023-10-12 16:17:59"),
+(91, "major", "2023-10-12 16:17:59"),
+(92, "march", "2023-10-12 16:17:59"),
+(93, "match", "2023-10-12 16:17:59"),
+(94, "metal", "2023-10-12 16:17:59"),
+(95, "model", "2023-10-12 16:17:59"),
+(96, "money", "2023-10-12 16:17:59"),
+(97, "month", "2023-10-12 16:17:59"),
+(98, "motor", "2023-10-12 16:17:59"),
+(99, "mouth", "2023-10-12 16:17:59"),
+(100, "music", "2023-10-12 16:17:59"),
+(101, "night", "2023-10-12 16:17:59"),
+(102, "noise", "2023-10-12 16:17:59"),
+(103, "north", "2023-10-12 16:17:59"),
+(104, "novel", "2023-10-12 16:17:59"),
+(105, "nurse", "2023-10-12 16:17:59"),
+(106, "offer", "2023-10-12 16:17:59"),
+(107, "order", "2023-10-12 16:17:59"),
+(108, "other", "2023-10-12 16:17:59"),
+(109, "owner", "2023-10-12 16:17:59"),
+(110, "panel", "2023-10-12 16:17:59"),
+(111, "paper", "2023-10-12 16:17:59"),
+(112, "party", "2023-10-12 16:17:59"),
+(113, "peace", "2023-10-12 16:17:59"),
+(114, "peter", "2023-10-12 16:17:59"),
+(115, "phase", "2023-10-12 16:17:59"),
+(116, "phone", "2023-10-12 16:17:59"),
+(117, "piece", "2023-10-12 16:17:59"),
+(118, "pilot", "2023-10-12 16:17:59"),
+(119, "pitch", "2023-10-12 16:17:59"),
+(120, "place", "2023-10-12 16:17:59"),
+(121, "plane", "2023-10-12 16:17:59"),
+(122, "plant", "2023-10-12 16:17:59"),
+(123, "plate", "2023-10-12 16:17:59"),
+(124, "point", "2023-10-12 16:17:59"),
+(125, "pound", "2023-10-12 16:17:59"),
+(126, "power", "2023-10-12 16:17:59"),
+(127, "press", "2023-10-12 16:17:59"),
+(128, "price", "2023-10-12 16:17:59"),
+(129, "pride", "2023-10-12 16:17:59"),
+(130, "prize", "2023-10-12 16:17:59"),
+(131, "proof", "2023-10-12 16:17:59"),
+(132, "queen", "2023-10-12 16:17:59"),
+(133, "radio", "2023-10-12 16:17:59"),
+(134, "range", "2023-10-12 16:17:59"),
+(135, "ratio", "2023-10-12 16:17:59"),
+(136, "reply", "2023-10-12 16:17:59"),
+(137, "right", "2023-10-12 16:17:59"),
+(138, "river", "2023-10-12 16:17:59"),
+(139, "round", "2023-10-12 16:17:59"),
+(140, "route", "2023-10-12 16:17:59"),
+(141, "rugby", "2023-10-12 16:17:59"),
+(142, "scale", "2023-10-12 16:17:59"),
+(143, "scene", "2023-10-12 16:17:59"),
+(144, "scope", "2023-10-12 16:17:59"),
+(145, "score", "2023-10-12 16:17:59"),
+(146, "sense", "2023-10-12 16:17:59"),
+(147, "shape", "2023-10-12 16:17:59"),
+(148, "share", "2023-10-12 16:17:59"),
+(149, "sheep", "2023-10-12 16:17:59"),
+(150, "sheet", "2023-10-12 16:17:59"),
+(151, "shift", "2023-10-12 16:17:59"),
+(152, "shirt", "2023-10-12 16:17:59"),
+(153, "shock", "2023-10-12 16:17:59"),
+(154, "sight", "2023-10-12 16:17:59"),
+(155, "simon", "2023-10-12 16:17:59"),
+(156, "skill", "2023-10-12 16:17:59"),
+(157, "sleep", "2023-10-12 16:17:59"),
+(158, "smile", "2023-10-12 16:17:59"),
+(159, "smith", "2023-10-12 16:17:59"),
+(160, "smoke", "2023-10-12 16:17:59"),
+(161, "sound", "2023-10-12 16:17:59"),
+(162, "south", "2023-10-12 16:17:59"),
+(163, "space", "2023-10-12 16:17:59"),
+(164, "speed", "2023-10-12 16:17:59"),
+(165, "spite", "2023-10-12 16:17:59"),
+(166, "sport", "2023-10-12 16:17:59"),
+(167, "squad", "2023-10-12 16:17:59"),
+(168, "staff", "2023-10-12 16:17:59"),
+(169, "stage", "2023-10-12 16:17:59"),
+(170, "start", "2023-10-12 16:17:59"),
+(171, "state", "2023-10-12 16:17:59"),
+(172, "steam", "2023-10-12 16:17:59"),
+(173, "steel", "2023-10-12 16:17:59"),
+(174, "stock", "2023-10-12 16:17:59"),
+(175, "stone", "2023-10-12 16:17:59"),
+(176, "store", "2023-10-12 16:17:59"),
+(177, "study", "2023-10-12 16:17:59"),
+(178, "stuff", "2023-10-12 16:17:59"),
+(179, "style", "2023-10-12 16:17:59"),
+(180, "sugar", "2023-10-12 16:17:59"),
+(181, "table", "2023-10-12 16:17:59"),
+(182, "taste", "2023-10-12 16:17:59"),
+(183, "terry", "2023-10-12 16:17:59"),
+(184, "theme", "2023-10-12 16:17:59"),
+(185, "thing", "2023-10-12 16:17:59"),
+(186, "title", "2023-10-12 16:17:59"),
+(187, "total", "2023-10-12 16:17:59"),
+(188, "touch", "2023-10-12 16:17:59"),
+(189, "tower", "2023-10-12 16:17:59"),
+(190, "track", "2023-10-12 16:17:59"),
+(191, "trade", "2023-10-12 16:17:59"),
+(192, "train", "2023-10-12 16:17:59"),
+(193, "trend", "2023-10-12 16:17:59"),
+(194, "trial", "2023-10-12 16:17:59"),
+(195, "trust", "2023-10-12 16:17:59"),
+(196, "truth", "2023-10-12 16:17:59"),
+(197, "uncle", "2023-10-12 16:17:59"),
+(198, "union", "2023-10-12 16:17:59"),
+(199, "unity", "2023-10-12 16:17:59"),
+(200, "value", "2023-10-12 16:17:59"),
+(201, "video", "2023-10-12 16:17:59"),
+(202, "visit", "2023-10-12 16:17:59"),
+(203, "voice", "2023-10-12 16:17:59"),
+(204, "waste", "2023-10-12 16:17:59"),
+(205, "watch", "2023-10-12 16:17:59"),
+(206, "water", "2023-10-12 16:17:59"),
+(207, "while", "2023-10-12 16:17:59"),
+(208, "white", "2023-10-12 16:17:59"),
+(209, "whole", "2023-10-12 16:17:59"),
+(210, "woman", "2023-10-12 16:17:59"),
+(211, "world", "2023-10-12 16:17:59"),
+(212, "youth", "2023-10-12 16:17:59"),
+(213, "apple", "2023-10-12 16:17:59"),
+(214, "mango", "2023-10-12 16:17:59"),
+(215, "lemon", "2023-10-12 16:17:59"),
+(216, "melon", "2023-10-12 16:17:59");

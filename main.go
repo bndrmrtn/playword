@@ -6,6 +6,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/helmet"
 	"github.com/gofiber/fiber/v2/middleware/logger"
+	"github.com/gofiber/fiber/v2/middleware/recover"
 	"log"
 )
 
@@ -14,7 +15,7 @@ func main() {
 
 	database.ConnectDb()
 
-	//app.Use(recover.New())
+	app.Use(recover.New())
 	app.Use(logger.New())
 	app.Use(helmet.New())
 
